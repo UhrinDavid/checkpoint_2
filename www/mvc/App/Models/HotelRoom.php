@@ -5,33 +5,19 @@ namespace App\Models;
 use App\Core\Model;
 class HotelRoom extends Model
 {
-    private int $roomNumber;
-    private string $roomTitle;
-    private string $roomDescription;
-    private int $capacity;
-    private int $eds;
-    private float $pricePerNight;
-    private bool $breakfastIncluded;
+    protected int $roomNumber;
+    protected string $roomTitle;
+    protected string $roomDescription;
+    protected int $capacity;
+    protected int $beds;
+    protected float $pricePerNight;
+    protected bool $breakfastIncluded;
 
     /**
      * HotelRoom constructor.
-     * @param int $roomNumber
      */
     public function __construct()
     {
-    }
-
-
-    static public function setDbColumns()
-    {
-        return ["roomNumber", "roomTitle", "roomDescription",
-                "capacity", "beds", "pricePerNight",
-                "breakfastIncluded"];
-    }
-
-    static public function setTableName()
-    {
-        return ["hotelrooms"];
     }
 
     /**
@@ -43,17 +29,17 @@ class HotelRoom extends Model
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getRoomTitle(): string
+    public function getRoomTitle(): ?string
     {
         return $this->roomTitle;
     }
 
     /**
-     * @return string
+     * @return string|null
      */
-    public function getRoomDescription(): string
+    public function getRoomDescription(): ?string
     {
         return $this->roomDescription;
     }
@@ -69,9 +55,9 @@ class HotelRoom extends Model
     /**
      * @return int
      */
-    public function getEds(): int
+    public function getBeds(): int
     {
-        return $this->eds;
+        return $this->beds;
     }
 
     /**
@@ -85,10 +71,23 @@ class HotelRoom extends Model
     /**
      * @return bool
      */
-    public function isBreakfastIncluded(): bool
+    public function getBreakfastIncluded(): bool
     {
         return $this->breakfastIncluded;
     }
 
+
+
+    static public function setDbColumns()
+    {
+        return ["roomNumber", "roomTitle", "roomDescription",
+                "capacity", "beds", "pricePerNight",
+                "breakfastIncluded"];
+    }
+
+    static public function setTableName()
+    {
+        return "hotelrooms";
+    }
 
 }

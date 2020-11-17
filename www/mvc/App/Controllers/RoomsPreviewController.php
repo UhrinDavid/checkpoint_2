@@ -5,12 +5,12 @@ namespace App\Controllers;
 
 
 use App\Core\AControllerBase;
-
+use App\Models\HotelRoom;
 class RoomsPreviewController extends AControllerBase
 {
 
     public function index()
     {
-        // TODO: Implement index() method.
+        return [ 'hotelrooms' => HotelRoom::getAll() ];
     }
 }
