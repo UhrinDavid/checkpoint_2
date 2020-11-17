@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf510140-73e5-4a6d-807c-9cac2615f587" name="Default Changelist" comment="php_mysql files">
+    <list default="true" id="cf510140-73e5-4a6d-807c-9cac2615f587" name="Default Changelist" comment="mvc files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/root.layout.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Views/root.layout.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +26,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kNVEn0vJV3RYtElZnxT3Gkb1ot" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -44,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605540926534</updated>
       <workItem from="1605540927593" duration="2415000" />
-      <workItem from="1605621388877" duration="652000" />
+      <workItem from="1605621388877" duration="1169000" />
     </task>
     <task id="LOCAL-00001" summary="php_mysql files">
       <created>1605621548631</created>
@@ -53,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605621548631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mvc files">
+      <created>1605622123579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605622123579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,8 +83,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="php_mysql files" />
-    <option name="LAST_COMMIT_MESSAGE" value="php_mysql files" />
+    <MESSAGE value="mvc files" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="245" key="#DBGp_Proxy" timestamp="1605552576829">
@@ -91,10 +105,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605552617855" />
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605621592634">
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605622134087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605621592634" />
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605622134087" />
     <state x="427" y="250" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605621954347">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
