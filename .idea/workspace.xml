@@ -10,17 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf510140-73e5-4a6d-807c-9cac2615f587" name="Default Changelist" comment="menu modification">
-      <change afterPath="$PROJECT_DIR$/db/hotel/db.opt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.frm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomsPreview.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mvc/App/Views/RoomForm/index.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/mvc/App/Views/RoomPreview/index.view.php" afterDir="false" />
+    <list default="true" id="cf510140-73e5-4a6d-807c-9cac2615f587" name="Default Changelist" comment="room db table modification">
+      <change afterPath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomFormController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mvc/App/Models/HotelRoom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/PN-SK-NB126.pid" beforeDir="false" afterPath="$PROJECT_DIR$/db/PN-SK-NB126.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/hotel/hotelrooms.frm" beforeDir="false" afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/hotel/hotelrooms.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/db/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/db/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/db/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Config/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Config/Configuration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomsPreview.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomsPreviewController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605540926534</updated>
       <workItem from="1605540927593" duration="2415000" />
-      <workItem from="1605621388877" duration="5289000" />
+      <workItem from="1605621388877" duration="8139000" />
     </task>
     <task id="LOCAL-00001" summary="php_mysql files">
       <created>1605621548631</created>
@@ -82,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605622610398</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="room db table">
+      <created>1605626886293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605626886293</updated>
+    </task>
+    <task id="LOCAL-00005" summary="room db table modification">
+      <created>1605627046379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605627046379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +119,9 @@
     <MESSAGE value="php_mysql files" />
     <MESSAGE value="mvc files" />
     <MESSAGE value="menu modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu modification" />
+    <MESSAGE value="room db table" />
+    <MESSAGE value="room db table modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="room db table modification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="245" key="#DBGp_Proxy" timestamp="1605552576829">
@@ -119,10 +136,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="223" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605623986656" />
-    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser" timestamp="1605623141793">
+    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser" timestamp="1605642930815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605623141793" />
+    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605642930815" />
+    <state x="424" y="72" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605642504316">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="72" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1605642504316" />
     <state x="366" y="106" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605623132241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -139,26 +160,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="266" height="457" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1605624494329" />
-    <state x="249" y="71" key="NewPhpClassDialog" timestamp="1605623108895">
+    <state x="249" y="71" key="NewPhpClassDialog" timestamp="1605642528630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="249" y="71" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1605623108895" />
+    <state x="249" y="71" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1605642528630" />
     <state x="466" y="272" key="NewPhpFileDialog" timestamp="1605623439351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="466" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605623439351" />
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605622616580">
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605627047430">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605622616580" />
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605627047430" />
     <state x="530" y="225" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605624588926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="530" y="225" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1280.680@0.0.1280.680" timestamp="1605624588926" />
-    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605626677428">
+    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605627014271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1605626677428" />
+    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1605627014271" />
     <state x="427" y="250" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605621954347">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
