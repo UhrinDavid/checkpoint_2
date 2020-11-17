@@ -10,20 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf510140-73e5-4a6d-807c-9cac2615f587" name="Default Changelist" comment="Skeletons for HotelRoom php class, controller classes">
-      <change afterPath="$PROJECT_DIR$/www/mvc/App/Views/RoomsPreview/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4516ecf-7f94-4f30-9bd8-85b223cdceae/storage_v2/_src_/schema/mysql.osA4Bg.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4516ecf-7f94-4f30-9bd8-85b223cdceae/storage_v2/_src_/schema/mysql.osA4Bg.zip" afterDir="false" />
+    <list default="true" id="cf510140-73e5-4a6d-807c-9cac2615f587" name="Default Changelist" comment="reading from database">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4516ecf-7f94-4f30-9bd8-85b223cdceae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4516ecf-7f94-4f30-9bd8-85b223cdceae.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/PN-SK-NB126.pid" beforeDir="false" afterPath="$PROJECT_DIR$/db/PN-SK-NB126.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/hotel/hotelrooms.frm" beforeDir="false" afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/hotel/hotelrooms.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/db/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/db/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/db/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql/innodb_index_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomsPreviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomsPreviewController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Models/HotelRoom.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Models/HotelRoom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/RoomPreview/index.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/RoomsPreview/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Views/RoomsPreview/index.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/root.layout.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Views/root.layout.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605540926534</updated>
       <workItem from="1605540927593" duration="2415000" />
-      <workItem from="1605621388877" duration="15050000" />
+      <workItem from="1605621388877" duration="16813000" />
     </task>
     <task id="LOCAL-00001" summary="php_mysql files">
       <created>1605621548631</created>
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605643258872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reading from database">
+      <created>1605649948224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605649948224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +137,8 @@
     <MESSAGE value="room db table" />
     <MESSAGE value="room db table modification" />
     <MESSAGE value="Skeletons for HotelRoom php class, controller classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skeletons for HotelRoom php class, controller classes" />
+    <MESSAGE value="reading from database" />
+    <option name="LAST_COMMIT_MESSAGE" value="reading from database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="245" key="#DBGp_Proxy" timestamp="1605552576829">
@@ -179,10 +185,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="466" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605623439351" />
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605643265222">
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605649992671">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605643265222" />
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605649992671" />
     <state x="530" y="225" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605624588926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -191,10 +197,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="361" y="153" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1280.680@0.0.1280.680" timestamp="1605644137011" />
-    <state x="438" y="161" width="404" height="354" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605648457643">
+    <state x="438" y="161" width="404" height="350" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605651341063">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="438" y="161" width="404" height="354" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1280.680@0.0.1280.680" timestamp="1605648457643" />
+    <state x="438" y="161" width="404" height="350" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1280.680@0.0.1280.680" timestamp="1605651341063" />
     <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605627014271">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

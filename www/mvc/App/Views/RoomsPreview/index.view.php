@@ -9,10 +9,13 @@
                 ?>
                 <li class="list-group-item">
                     <div>
-                        <b>Room <?= $hotelroom->getRoomNumber()?></b>
+                        <b>Room <?= $hotelroom->getId()?></b>
                         <br>
                         <?= $hotelroom->getRoomTitle() ?>
-                    </div></li>
+                        <a href="?c=roomspreview&a=delete&id=<?= $hotelroom->getId() ?>"
+                            class="btn btn-danger btn-sm">delete</a>
+                    </div>
+                </li>
                 <?php
                 }
                 ?>

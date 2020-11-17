@@ -13,4 +13,13 @@ class RoomsPreviewController extends AControllerBase
     {
         return [ 'hotelrooms' => HotelRoom::getAll() ];
     }
+
+    public function delete() {
+        $id = $_GET['id'];
+        $hotelRoom = new HotelRoom();
+        $hotelRoom->getOne($id);
+        $hotelRoom->delete();
+        header("Location: ?c=roomspreview");
+        exit();
+    }
 }

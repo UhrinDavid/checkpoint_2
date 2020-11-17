@@ -13,12 +13,12 @@
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark active" href="?c=roomspreview">Rooms preview</a>
             <a class="p-2 text-dark" href="?c=roomform&a=add">Add room</a>
-            <a class="p-2 text-dark" href="?c=roomform&a=edit">Edit room</a>
         </nav>
 
     </div>
     <div class="web-content">
         <?=
+        /** @var TYPE_NAME $contentHTML */
         $contentHTML ?>
     </div>
     </body>

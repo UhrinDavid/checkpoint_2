@@ -1668,7 +1668,7 @@
     <table id="525" parent="5" name="users">
       <Engine>PERFORMANCE_SCHEMA</Engine>
     </table>
-    <column id="526" parent="334" name="roomNumber">
+    <column id="526" parent="334" name="id">
       <Position>1</Position>
       <DataType>int(4)|0s</DataType>
       <NotNull>1</NotNull>
@@ -1698,17 +1698,17 @@
       <DataType>tinyint(1)|0s</DataType>
     </column>
     <index id="533" parent="334" name="hotelRooms_roomNumber_uindex">
-      <ColNames>roomNumber</ColNames>
+      <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
     <key id="534" parent="334" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>roomNumber</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
     <key id="535" parent="334" name="hotelRooms_roomNumber_uindex">
-      <ColNames>roomNumber</ColNames>
+      <ColNames>id</ColNames>
       <UnderlyingIndexName>hotelRooms_roomNumber_uindex</UnderlyingIndexName>
     </key>
     <column id="536" parent="335" name="PLUGIN_NAME">

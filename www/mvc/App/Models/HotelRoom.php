@@ -5,7 +5,7 @@ namespace App\Models;
 use App\Core\Model;
 class HotelRoom extends Model
 {
-    protected int $roomNumber;
+    protected int $id;
     protected string $roomTitle;
     protected string $roomDescription;
     protected int $capacity;
@@ -23,9 +23,9 @@ class HotelRoom extends Model
     /**
      * @return int
      */
-    public function getRoomNumber(): int
+    public function getId(): int
     {
-        return $this->roomNumber;
+        return $this->id;
     }
 
     /**
@@ -80,7 +80,7 @@ class HotelRoom extends Model
 
     static public function setDbColumns()
     {
-        return ["roomNumber", "roomTitle", "roomDescription",
+        return ["id", "roomTitle", "roomDescription",
                 "capacity", "beds", "pricePerNight",
                 "breakfastIncluded"];
     }
