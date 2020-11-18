@@ -5,7 +5,7 @@ namespace App\Models;
 use App\Core\Model;
 class HotelRoom extends Model
 {
-    protected int $id;
+    protected  $id;
     protected string $roomTitle;
     protected string $roomDescription;
     protected int $capacity;
@@ -23,7 +23,7 @@ class HotelRoom extends Model
     /**
      * @return int
      */
-    public function getId(): int
+    public function getId()
     {
         return $this->id;
     }
@@ -79,7 +79,7 @@ class HotelRoom extends Model
     /**
      * @param int $id
      */
-    public function setId(int $id): void
+    public function setId($id)
     {
         $this->id = $id;
     }

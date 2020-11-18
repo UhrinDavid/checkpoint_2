@@ -1,4 +1,3 @@
-<?php /** @var Array $data */ ?>
 <div class="container">
 <form  method="post">
     <div class="form-row">
@@ -33,14 +32,6 @@
         <div class="col-md-3 mb-3">
             <label for="pricePerNight">Price per night</label>
             <input type="number" class="form-control" name="pricePerNight">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" name="breakfastIncluded">
-            <label class="form-check-label" for="breakfastIncluded">
-                Breakfast included
-            </label>
         </div>
     </div>
     <button class="btn btn-primary" type="submit">Add room</button>

@@ -16,10 +16,9 @@ class RoomsPreviewController extends AControllerBase
 
     public function delete() {
         $id = $_GET['id'];
-        $hotelRoom = new HotelRoom();
-        $hotelRoom->setId($id);
-        $hotelRoom->getOne($id);
-        $hotelRoom->delete();
+        $hotelroom = new HotelRoom();
+        $hotelroom->setID($id);
+        $hotelroom->delete();
         header("Location: ?c=roomspreview");
         exit();
     }

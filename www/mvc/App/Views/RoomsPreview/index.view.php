@@ -13,6 +13,8 @@
                         <br>
                         <?= $hotelroom->getRoomTitle() ?>
                         <br>
+                        <a href="?c=roomform&a=edit&id=<?= $hotelroom->getId() ?>"
+                           class="btn btn-primary btn-sm">edit</a>
                         <a href="?c=roomspreview&a=delete&id=<?= $hotelroom->getId() ?>"
                             class="btn btn-danger btn-sm">delete</a>
                     </div>

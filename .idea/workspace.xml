@@ -11,15 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf510140-73e5-4a6d-807c-9cac2615f587" name="Default Changelist" comment="delete (with error)">
+      <change afterPath="$PROJECT_DIR$/www/mvc/App/Views/RoomForm/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4516ecf-7f94-4f30-9bd8-85b223cdceae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4516ecf-7f94-4f30-9bd8-85b223cdceae.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/PN-SK-NB126.pid" beforeDir="false" afterPath="$PROJECT_DIR$/db/PN-SK-NB126.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/hotel/hotelrooms.frm" beforeDir="false" afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.frm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/hotel/hotelrooms.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/hotel/hotelrooms.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/db/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/db/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/db/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/db/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Controllers/HomeController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomFormController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomsPreviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Controllers/RoomsPreviewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Core/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Models/HotelRoom.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Models/HotelRoom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/Home/contact.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/Home/index.view.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/RoomForm/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Views/RoomForm/index.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/RoomsPreview/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Views/RoomsPreview/index.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/mvc/App/Views/root.layout.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/mvc/App/Views/root.layout.view.php" afterDir="false" />
@@ -49,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -61,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605540926534</updated>
       <workItem from="1605540927593" duration="2415000" />
-      <workItem from="1605621388877" duration="23525000" />
+      <workItem from="1605621388877" duration="29167000" />
     </task>
     <task id="LOCAL-00001" summary="php_mysql files">
       <created>1605621548631</created>
@@ -119,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605651764330</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="delete (with error)">
+      <created>1605689730380</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605689730380</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,10 +176,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="88" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605647410885" />
-    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser" timestamp="1605652047380">
+    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser" timestamp="1605694369400">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605652047380" />
+    <state x="436" y="30" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605694369400" />
     <state x="424" y="72" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605642504316">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -189,14 +204,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="249" y="71" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1605642528630" />
-    <state x="466" y="272" key="NewPhpFileDialog" timestamp="1605623439351">
+    <state x="466" y="272" key="NewPhpFileDialog" timestamp="1605690107731">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="466" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605623439351" />
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605651767230">
+    <state x="466" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605690107731" />
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2" timestamp="1605689736411">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605651767230" />
+    <state x="223" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605689736411" />
     <state x="530" y="225" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605624588926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -209,10 +224,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="161" width="404" height="350" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1280.680@0.0.1280.680" timestamp="1605651341063" />
-    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605627014271">
+    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605694054123">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1605627014271" />
+    <state x="119" y="86" width="644" height="523" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1605694054123" />
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605687982750">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
