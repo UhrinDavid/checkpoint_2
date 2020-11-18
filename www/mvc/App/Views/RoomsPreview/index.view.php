@@ -12,6 +12,7 @@
                         <b>Room <?= $hotelroom->getId()?></b>
                         <br>
                         <?= $hotelroom->getRoomTitle() ?>
+                        <br>
                         <a href="?c=roomspreview&a=delete&id=<?= $hotelroom->getId() ?>"
                             class="btn btn-danger btn-sm">delete</a>
                     </div>

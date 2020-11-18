@@ -76,6 +76,62 @@ class HotelRoom extends Model
         return $this->breakfastIncluded;
     }
 
+    /**
+     * @param int $id
+     */
+    public function setId(int $id): void
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * @param string $roomTitle
+     */
+    public function setRoomTitle(string $roomTitle): void
+    {
+        $this->roomTitle = $roomTitle;
+    }
+
+    /**
+     * @param string $roomDescription
+     */
+    public function setRoomDescription(string $roomDescription): void
+    {
+        $this->roomDescription = $roomDescription;
+    }
+
+    /**
+     * @param int $capacity
+     */
+    public function setCapacity(int $capacity): void
+    {
+        $this->capacity = $capacity;
+    }
+
+    /**
+     * @param int $beds
+     */
+    public function setBeds(int $beds): void
+    {
+        $this->beds = $beds;
+    }
+
+    /**
+     * @param float $pricePerNight
+     */
+    public function setPricePerNight(float $pricePerNight): void
+    {
+        $this->pricePerNight = $pricePerNight;
+    }
+
+    /**
+     * @param bool $breakfastIncluded
+     */
+    public function setBreakfastIncluded(bool $breakfastIncluded): void
+    {
+        $this->breakfastIncluded = $breakfastIncluded;
+    }
+
 
 
     static public function setDbColumns()
