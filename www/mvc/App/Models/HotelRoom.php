@@ -11,7 +11,6 @@ class HotelRoom extends Model
     protected int $capacity;
     protected int $beds;
     protected float $pricePerNight;
-    protected bool $breakfastIncluded;
 
     /**
      * HotelRoom constructor.
@@ -69,14 +68,6 @@ class HotelRoom extends Model
     }
 
     /**
-     * @return bool
-     */
-    public function getBreakfastIncluded(): bool
-    {
-        return $this->breakfastIncluded;
-    }
-
-    /**
      * @param int $id
      */
     public function setId($id)
@@ -124,21 +115,10 @@ class HotelRoom extends Model
         $this->pricePerNight = $pricePerNight;
     }
 
-    /**
-     * @param bool $breakfastIncluded
-     */
-    public function setBreakfastIncluded(bool $breakfastIncluded): void
-    {
-        $this->breakfastIncluded = $breakfastIncluded;
-    }
-
-
-
     static public function setDbColumns()
     {
         return ["id", "roomTitle", "roomDescription",
-                "capacity", "beds", "pricePerNight",
-                "breakfastIncluded"];
+                "capacity", "beds", "pricePerNight"];
     }
 
     static public function setTableName()

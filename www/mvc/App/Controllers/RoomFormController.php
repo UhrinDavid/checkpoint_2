@@ -20,8 +20,8 @@ class RoomFormController extends AControllerBase
             $hotelroom->setCapacity($_POST['capacity']);
             $hotelroom->setBeds($_POST['beds']);
             $hotelroom->setPricePerNight($_POST['pricePerNight']);
-            $hotelroom->setBreakfastIncluded($_POST['breakfastIncluded'] == "on");
             $hotelroom->save();
+            header("Location: ?c=roomspreview");
         }
         return [];
     }
@@ -29,7 +29,7 @@ class RoomFormController extends AControllerBase
     public function edit() {
         $id = $_GET['id'];
         $hotelroom = new HotelRoom();
-        $hotelroom->getOne($id);
+        $hotelroom = $hotelroom->getOne($id);
 
         if (isset($_POST['id'])) {
             $hotelroom->setId($_POST['id']);
@@ -38,7 +38,6 @@ class RoomFormController extends AControllerBase
             $hotelroom->setCapacity($_POST['capacity']);
             $hotelroom->setBeds($_POST['beds']);
             $hotelroom->setPricePerNight($_POST['pricePerNight']);
-            $hotelroom->setBreakfastIncluded($_POST['breakfastIncluded'] == "on");
             $hotelroom->save();
             header("Location: ?c=roomspreview");
 

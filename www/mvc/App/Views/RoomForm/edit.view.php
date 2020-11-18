@@ -34,14 +34,12 @@
             <label for="beds">Enter number of beds</label>
             <input type="number" class="form-control" name="beds" value="<?= $hotelroom->getBeds() ?>">
         </div>
-    </div>
-    <div class="form-row">
         <div class="col-md-3 mb-3">
             <label for="pricePerNight">Price per night</label>
             <input type="number" class="form-control" name="pricePerNight" value="<?= $hotelroom->getPricePerNight() ?>">
         </div>
     </div>
-    <button class="btn btn-primary" type="submit">Add room</button>
+    <button class="btn btn-primary" type="submit">Submit</button>
 </form>
 </div>
 
